@@ -1,11 +1,14 @@
 <settings>
 <servers>
      <server>
+<<<<<<< HEAD
                  <id>TomcatServer</id>
                  <username>tomcat</username>
                  <password>tomcat</password>
          </server>
     <server>
+=======
+>>>>>>> 6fe98f79017030920e5c4d2bb434d60ccf8c0a25
       <id>snapshots</id>
       <username>admin</username>
       <password>admin123</password>
@@ -15,5 +18,10 @@
       <username>admin</username>
       <password>admin123</password>
     </server>
+     <server>
+                 <id>TomcatServer</id>
+                 <username>deploy<username>
+                 <password>devops</password>
+         </server>
 </servers>
 </settings>
